@@ -27,3 +27,7 @@
 
 ;;選択範囲に色がつくように変更
 (transient-mark-mode t)
+
+;;鬼軍曹.el
+(require 'drill-instructor)
+(setq drill-instructor-global t)
