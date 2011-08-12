@@ -34,3 +34,7 @@
 ;;; anything-find-project-resources
 (require 'anything-find-project-resources)
 (add-to-list 'anything-find-resource--project-root-files "tags")
+
+
+;;; anything-exuberant-ctags
+(require 'anything-exuberant-ctags)
