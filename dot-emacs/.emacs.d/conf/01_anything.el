@@ -1,4 +1,6 @@
 (require 'anything-config)
+(require 'anything-match-plugin)
+(require 'anything-show-completion)
 
 (defun anything-main ()
   "my main anything-command"
