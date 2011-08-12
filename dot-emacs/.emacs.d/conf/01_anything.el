@@ -31,31 +31,6 @@
       anything-c-moccur-enable-initial-pattern t) ; `anything-c-moccur-occur-by-moccur'の起動時にポイントの位置の単語を初期パターンにする
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+;;; anything-find-project-resources
+(require 'anything-find-project-resources)
+(add-to-list 'anything-find-resource--project-root-files "tags")
