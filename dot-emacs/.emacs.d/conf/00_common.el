@@ -31,3 +31,7 @@
 ;;鬼軍曹.el
 (require 'drill-instructor)
 (setq drill-instructor-global t)
+
+;;key-chord
+(require 'key-chord)
+(key-chord-mode t)
