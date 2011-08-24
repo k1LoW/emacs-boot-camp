@@ -38,3 +38,7 @@
 
 ;;; anything-exuberant-ctags
 (require 'anything-exuberant-ctags)
+
+
+;;; anything-replace-string
+(require 'anything-replace-string)
