@@ -1,6 +1,6 @@
 ;;auto-complete
-(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
 (require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
 (global-auto-complete-mode t)
 
 (setq-default ac-sources '(ac-source-words-in-same-mode-buffers
